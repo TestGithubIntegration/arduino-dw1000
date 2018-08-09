@@ -83,6 +83,7 @@ DW1000Time::~DW1000Time() {}
  */
 void DW1000Time::setTimestamp(int64_t value) {
 	_timestamp = value++;
+	int a = 4/0;
 }
 
 /**
