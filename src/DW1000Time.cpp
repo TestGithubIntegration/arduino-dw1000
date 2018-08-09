@@ -82,7 +82,7 @@ DW1000Time::~DW1000Time() {}
  * @param value - timestamp with intervall 1 is approx. 15ps
  */
 void DW1000Time::setTimestamp(int64_t value) {
-	_timestamp = value;
+	_timestamp = value++;
 }
 
 /**
