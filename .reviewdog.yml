@@ -1,6 +1,7 @@
 # reviewdog.yml
 
 runner:
+  cmd: misspell $(git ls-files)
   misspell:
     errorformat:
       - "%f:%l:%c: %m"
