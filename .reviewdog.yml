@@ -2,6 +2,6 @@
 
 runner:
   misspell:
-    cmd: misspell $(git ls-files)
+    cmd: misspell .
     errorformat:
       - "%f:%l:%c: %m"
