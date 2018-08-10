@@ -8,6 +8,7 @@ sudo: false
 env:
   global:
     - REVIEWDOG_VERSION="0.9.11"
+    - REVIEWDOG_TOKEN="91efbb8a8b28a6a2"
     # add examples here and define which boards should be tested (only compile test)
     - PLATFORMIO_CI_SRC=examples/BasicConnectivityTest/BasicConnectivityTest.ino TESTBOARD=arduino_avr,arduino_arm
 
@@ -16,6 +17,5 @@ install:
     - curl -fSL https://github.com/haya14busa/reviewdog/releases/download/$REVIEWDOG_VERSION/reviewdog_linux_amd64 -o ~/bin/reviewdog && chmod +x ~/bin/reviewdog
 
 script:
-    - reviewdog -conf=.reviewdog.yml -reporter=local
     - reviewdog -conf=.reviewdog.yml -reporter=github-pr-check
     
