@@ -6,6 +6,11 @@ git:
 # Cache PlatformIO packages using Travis CI container-based infrastructure
 sudo: false
 
+addons:
+  apt:
+    packages:
+    - cppcheck
+    
 env:
   global:
     - REVIEWDOG_VERSION="0.9.11"
