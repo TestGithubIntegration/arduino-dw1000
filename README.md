@@ -3,6 +3,7 @@
 ![Required know-how](https://img.shields.io/badge/Required%20know--how-professional-red.svg)
 ![Additional hardware required](https://img.shields.io/badge/Additional%20hardware-required-orange.svg)
 ![c++11](https://img.shields.io/badge/C%2B%2B-11-brightgreen.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a17bf2c6e7564baf90c03f744d2576ff)](https://app.codacy.com/app/TestGithubIntegration/arduino-dw1000?utm_source=github.com&utm_medium=referral&utm_content=TestGithubIntegration/arduino-dw1000&utm_campaign=badger)
 [![releases](https://img.shields.io/github/release/thotro/arduino-dw1000.svg?colorB=00aa00)](https://github.com/thotro/arduino-dw1000/releases)
 ![min arduino ide](https://img.shields.io/badge/ArduinoIDE-%3E%3D1.6.10-lightgrey.svg)
 [![GitHub license](https://img.shields.io/badge/license-Apache%202-blue.svg)](https://raw.githubusercontent.com/thotro/arduino-dw1000/master/LICENSE.md)
